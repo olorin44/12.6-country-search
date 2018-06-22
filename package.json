@@ -1,7 +1,7 @@
 {
   "name": "12.6-country-search",
   "version": "1.0.0",
-  "description": "kanban table exercise",
+  "description": "country search engine exercise",
   "main": "script.js",
   "scripts": {
     "test": "npm-run-all test:*",
