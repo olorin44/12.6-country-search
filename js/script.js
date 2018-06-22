@@ -4,6 +4,7 @@
 
 	var url = 'https://restcountries.eu/rest/v1/name/';
 	var countriesList = document.getElementById('countries');
+	var urlCapital = 'https://restcountries.eu/rest/v2/capital/';///
 
 	document.getElementById('search').addEventListener('click', searchCountries);
 

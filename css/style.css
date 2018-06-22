@@ -1,0 +1,20 @@
+body {
+  background-color: #718093;
+  color: #dcdde1;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
+
+body button {
+  background-color: #2f3640;
+  border-radius: 5px;
+  color: #fff;
+  padding: 4px;
+  text-transform: uppercase;
+}
+
+body ul > li {
+  margin-left: 45%;
+  text-align: left;
+}
+/*# sourceMappingURL=style.css.map */
