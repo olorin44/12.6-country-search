@@ -4,7 +4,6 @@
 
 	var url = 'https://restcountries.eu/rest/v1/name/';
 	var countriesList = document.getElementById('countries');
-	var urlCapital = 'https://restcountries.eu/rest/v2/capital/';///
 
 	document.getElementById('search').addEventListener('click', searchCountries);
 
@@ -22,7 +21,7 @@
 		countriesList.innerHTML = '';
 		resp.forEach(function(item){
 			var liEl = document.createElement('li');
-			liEl.innerText = item.name;
+			liEl.innerText = item.name + ' - capital city: ' + item.capital + ', population: ' + item.population;
 			countriesList.appendChild(liEl);
 		});
 	}
