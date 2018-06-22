@@ -1,0 +1,19 @@
+body {
+	background-color: #718093;
+	color: #dcdde1;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+
+	button {
+		background-color: #2f3640;
+		border-radius: 5px;
+		color: #fff;
+		padding: 4px;
+		text-transform: uppercase;
+	}
+
+	ul > li {
+		margin-left: 40%;
+		text-align: left;
+	}
+}
