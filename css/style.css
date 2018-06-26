@@ -1,28 +1,7 @@
-body {
-  background-color: #718093;
-  color: #dcdde1;
-  font-family: 'Titillium Web', sans-serif;
-  text-align: center;
-}
+body { background-color: #718093; color: #dcdde1; font-family: 'Titillium Web', sans-serif; text-align: center; }
 
-body button {
-  background-color: #2f3640;
-  border-radius: 5px;
-  color: #fff;
-  padding: 4px;
-  text-transform: uppercase;
-}
+body button { background-color: #2f3640; border-radius: 5px; color: #fff; padding: 4px; text-transform: uppercase; }
 
-body ul > li {
-  color: #fff;
-  list-style-type: none;
-  margin-left: 43%;
-  text-align: left;
-}
+body ul > li { color: #fff; list-style-type: none; margin-left: 43%; text-align: left; }
 
-img {
-  height: 200px;
-  margin-right: 2%;
-  width: 300px;
-}
-/*# sourceMappingURL=style.css.map */
+img { height: 200px; margin-right: 2%; width: 300px; }

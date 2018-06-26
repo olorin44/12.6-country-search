@@ -6,6 +6,12 @@
 	var countriesList = document.getElementById('countries');
 
 	document.getElementById('search').addEventListener('click', searchCountries);
+	document.getElementById('country-name').addEventListener('keyup', function(event){
+		event.preventDefault();
+		if (event.keyCode === 13) {
+			document.getElementById('search').click();
+		}
+	});
 
 	function searchCountries() {
 		var countryName = document.getElementById('country-name').value;
