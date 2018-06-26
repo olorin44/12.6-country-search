@@ -2,7 +2,7 @@
 (function() {
 
 
-	var url = 'https://restcountries.eu/rest/v1/name/';
+	var url = 'https://restcountries.eu/rest/v2/name/';
 	var countriesList = document.getElementById('countries');
 
 	document.getElementById('search').addEventListener('click', searchCountries);
@@ -21,11 +21,15 @@
 		countriesList.innerHTML = '';
 		resp.forEach(function(item){
 			var liEl = document.createElement('li');
-			liEl.innerText = item.name + ' - capital city: ' + item.capital + ', population: ' + item.population;
+			var img = document.createElement('img');
+			img.src = item.flag;
+			countriesList.appendChild(img);
+			liEl.innerHTML = 'country name: ' + item.name + '<br>' + 'capital city: ' + item.capital
+			+ '<br>' + 'land area: ' + item.area + ' sq. km' + '<br>'
+			+ 'population: ' + item.population + '<br>' + '<br><br><br>';
 			countriesList.appendChild(liEl);
 		});
 	}
-
 
 
 })();
